@@ -5,7 +5,7 @@ bool playing(Player* player){
     player->num_enemy /= (rand() % 2);
     player->hp /= (rand() % 2);
     std::cout << "Your hp: " << player->hp << "\nNum your enemy: " << player->num_enemy << "\n";
-    return player->num_enemy > player->hp;
+    return player->num_enemy < player->hp;
 }
 
 int main() {
@@ -20,5 +20,4 @@ int main() {
         std::cout << "You Win" << std::endl;
     else
         std::cout << "You Lose" << std::endl;
-
 }
