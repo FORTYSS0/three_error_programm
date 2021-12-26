@@ -3,4 +3,4 @@ project(Program)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Program main.cpp player.h)
+add_executable(Program main.cpp zero_error.h)

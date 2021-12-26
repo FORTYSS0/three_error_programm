@@ -4,20 +4,11 @@ set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
 
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
-  )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/CLion_projects/Program/main.cpp" "D:/CLion_projects/Program/cmake-build-debug/CMakeFiles/Program.dir/main.cpp.obj"
-  )
-set(CMAKE_CXX_COMPILER_ID "MSVC")
-
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
   )
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/media/FORTYSS/Data/МГТУ/Реверс/Лабы/1/three_error_programm/main.cpp" "CMakeFiles/Program.dir/main.cpp.o" "gcc" "CMakeFiles/Program.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.

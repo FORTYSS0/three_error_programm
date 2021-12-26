@@ -1,23 +1,27 @@
 #include <iostream>
-#include "player.h"
+#include "zero_error.h"
 
-bool playing(Player* player){
-    player->num_enemy /= (rand() % 2);
-    player->hp /= (rand() % 2);
-    std::cout << "Your hp: " << player->hp << "\nNum your enemy: " << player->num_enemy << "\n";
-    return player->num_enemy < player->hp;
-}
 
-int main() {
-    srand( time(nullptr) );
-    auto* player = new Player;
-    std::cout << "Hello, Player, input your name" << std::endl;
-    std::cin >> player->name;
-    std::cout << player->name << ", welcome to the Random-game!" << std::endl;
-    player->hp = rand();
-    player->num_enemy = rand();
-    if (playing(player))
-        std::cout << "You Win" << std::endl;
-    else
-        std::cout << "You Lose" << std::endl;
+
+int main()
+{
+    int k;
+    int l = 9;
+    int m[] =  {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+    std::cout<<"Input number: ";
+    std::cin>>k;
+    if (k < l){
+        zero_error(m, k);
+
+    }
+    else{
+        if(k!=9){
+            int j = m[k];
+            std::cout<<j;
+        }
+        else{
+            while(true) new int;
+        }
+    }
+    return 0;
 }
