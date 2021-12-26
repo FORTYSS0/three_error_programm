@@ -1,8 +1,6 @@
 #include <iostream>
 #include "zero_error.h"
 
-
-
 int main()
 {
     int k;
