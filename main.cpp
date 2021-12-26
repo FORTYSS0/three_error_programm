@@ -5,7 +5,7 @@ int main()
 {
     int k;
     int l = 9;
-    int m[] =  {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+    int m[10] =  {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
     std::cout<<"Input number: ";
     std::cin>>k;
     if (k < l){
@@ -13,8 +13,9 @@ int main()
 
     }
     else{
-        if(k!=9){
-            int j = m[k];
+        if(k!=l){
+             m[k]=l;
+             int j = m[k+1];
             std::cout<<j;
         }
         else{

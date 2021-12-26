@@ -1,5 +1,5 @@
 //
-// Created by FORTYSS on 26.12.2021.
+// Created by FORTYSS
 //
 #include <iostream>
 
